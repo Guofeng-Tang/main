@@ -72,8 +72,8 @@ public interface Model {
     /**
      * Replaces the given exercise {@code target} with {@code editedExercise}.
      * {@code target} must exist in the zerotoone book.
-     * The exercise identity of {@code editedExercise} must not be the same as another existing exercise in the zerotoone
-     * book.
+     * The exercise identity of {@code editedExercise} must not be the same as another existing exercise in the
+     * zerotoone book.
      */
     void setExercise(Exercise target, Exercise editedExercise);
 
